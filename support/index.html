@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Light — Support</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1f; --muted: #5b5b66;
+    --rule: #e4e4ea; --accent: #8a4b00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f0d14; --fg: #ece7df; --muted: #9a94a8;
+            --rule: #2a2836; --accent: #ffa033; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 4rem 1.5rem 6rem;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; }
+  h2 { font-size: 1.1rem; margin: 2.6rem 0 .6rem; letter-spacing: -.01em; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: .9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Night Light — Support</h1>
+<p class="sub">A warm, dim reading light for iPhone.</p>
+
+<h2>Getting in touch</h2>
+<p>Report bugs and ask questions by opening an issue:
+<a href="https://github.com/JoeFerrucci/night-light-privacy/issues">github.com/JoeFerrucci/night-light-privacy/issues</a>.
+Include your iPhone model and iOS version.</p>
+
+<h2>The basics</h2>
+<ul>
+  <li><strong>Warmth.</strong> Tap Red, Amber, Warm, or Neutral, or swipe left and right anywhere on the screen.</li>
+  <li><strong>Brightness.</strong> Drag the slider, or swipe up and down anywhere on the screen.</li>
+  <li><strong>Ultra Dim.</strong> Lets the light go darker than the iPhone brightness slider allows.</li>
+  <li><strong>Keep Awake.</strong> Stops the phone from auto-locking while the light is on.</li>
+  <li><strong>Timer.</strong> Turns the light off after 5 to 60 minutes.</li>
+  <li><strong>Lock.</strong> Tap Lock, or press and hold the screen, to freeze every control. Tap Unlock to restore them.</li>
+  <li><strong>Presets.</strong> Tap Save to keep the current settings. Touch and hold a preset to delete it.</li>
+  <li><strong>Power.</strong> The circle button in the top corner turns the light off and on without closing the app.</li>
+</ul>
+
+<h2>Torch mode</h2>
+<p>Torch uses the flashlight instead of the screen. iOS asks for camera
+permission the first time because the flashlight is part of the camera
+hardware. Night Light never takes photos or video. If you declined the
+prompt, enable it in Settings &gt; Apps &gt; Night Light &gt; Camera.</p>
+
+<h2>Common questions</h2>
+<ul>
+  <li><strong>The light turned off by itself.</strong> A timer was set. Tap Timer and choose "Until Off" to disable it.</li>
+  <li><strong>Nothing responds when I tap.</strong> The controls are locked. Tap Unlock at the bottom of the screen.</li>
+  <li><strong>Torch is unavailable.</strong> The device has no flashlight, or camera permission was declined.</li>
+  <li><strong>The screen is darker than I expected.</strong> Turn off Ultra Dim.</li>
+</ul>
+
+<h2>Privacy</h2>
+<p>Night Light collects no data and never connects to the internet. Read the
+<a href="../">privacy policy</a>.</p>
+
+<hr>
+<footer>Night Light is made by Joe Ferrucci.</footer>
+</main>
+</body>
+</html>
